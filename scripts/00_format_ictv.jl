@@ -31,7 +31,6 @@ end
 
 #--- Create the new dataframe
 
-
 # We create an empty data frame, which has the unique identifier of the virus,
 # its name, its taxonomic rank, and then its ancestor. The ancestor column has
 # the identifier of the previous taxonomic level - having an ancestor that is
