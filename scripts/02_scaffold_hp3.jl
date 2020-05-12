@@ -1,25 +1,30 @@
-import Pkg;
-Pkg.activate(".");
-
 using DataFrames
 import CSV
 using GBIF
 
-#--- Load the ICTV master data
+#--- We need the formatted ICTV file before we start working on this
 
-ictv_path = joinpath(pwd(), "data", "scaffold", "ictv.csv")
+# We are going to help the CSV parser a little bit by giving it information
+# about the column types.
+ictv_path = joinpath("01_scaffolded_data", "ictv.csv")
 ictv =
     CSV.read(ictv_path, types = [String, String, String, Union{String,Missing}])
 
-#--- Load the dataframes templates and other functions
+#--- Load some extra helper functions
 
-include(joinpath(pwd(), "data", "scaffold", "lib", "dataframes.jl"))
-include(joinpath(pwd(), "data", "scaffold", "lib", "methods.jl"))
+# These are empty dataframes
+include(joinpath(pwd(), "lib", "dataframes.jl"))
+# These are GBIF helpers
+include(joinpath(pwd(), "lib", "methods.jl"))
 
 #--- Specify the paths and load the files
 
-hp3_path = joinpath("data", "raw", "HP3")
+hp3_path = joinpath("00_raw_data", "HP3")
 hp3_files = ["associations", "hosts", "viruses"]
+
+# We are going to load everything in one go, and the only trick here is that HP3
+# uses both NA and Unassigned as markers for lack of information. These probably
+# have different semantics, but for our purpose these correspond to Missing.
 hp3_assoc, hp3_hosts, hp3_viruses = [
     CSV.read(
         joinpath(hp3_path, "$(hp3f).csv"),
@@ -27,18 +32,18 @@ hp3_assoc, hp3_hosts, hp3_viruses = [
     ) for hp3f in hp3_files
 ]
 
-#--- Clean host file
+#--- Prepare some empty dataframes
 
-clean_host_file = CSV.read(joinpath(hp3_path, "HP3-associations_all mammal_compatible.csv"))
-select!(clean_host_file, Not(:Column1))
-hp3_assoc = clean_host_file
+hp3_entities_virus = entities_scaffold()
+hp3_entities_host = entities_scaffold()
+hp3_host_taxa = host_scaffold()
+hp3_associations = associations_scaffold()
 
 #--- Map the viruses
 
-hp3_entities_virus = entities_scaffold()
-
-# Genus, Subfamily, Family, Order
-
+# This part follows the same logic as the genbank file, so it's a little more
+# lightly commented. The only difference is that we pick the most resolved level
+# for every row in the HP3 dataset.
 for virus in eachrow(hp3_viruses)
     id = string(hash(virus.vVirusNameCorrected * "HP3"))
     origin = "HP3"
@@ -76,9 +81,7 @@ end
 
 #--- Populate the tables with host information
 
-hp3_host_taxa = host_scaffold()
-hp3_entities_host = entities_scaffold()
-
+# Same as above, this is very close to the genbank script
 for (idx, host_row) in enumerate(eachrow(hp3_hosts))
     host_name = "$(host_row.hGenus) $(host_row.hSpecies)"
     # Prepare the entity match
@@ -106,8 +109,7 @@ end
 
 #--- Prepare an association table
 
-hp3_associations = associations_scaffold()
-
+# Again - this is a simple mapping - and this is relatively quick
 for (i, row) in enumerate(eachrow(hp3_assoc))
     association_id = string(hash(row))
     host_id = string(hash(row.hHostNameFinal * "HP3"))
@@ -121,12 +123,10 @@ for (i, row) in enumerate(eachrow(hp3_assoc))
     )
 end
 
-#--- Make the path
+#--- Make the path and write them
 
-data_path = joinpath("data", "scaffold", "HP3")
+data_path = joinpath("01_scaffolded_data", "HP3")
 ispath(data_path) || mkdir(data_path)
-
-#--- Write the files
 
 CSV.write(joinpath(data_path, "entities_virus.csv"), unique(hp3_entities_virus))
 CSV.write(joinpath(data_path, "entities_host.csv"), unique(hp3_entities_host))
