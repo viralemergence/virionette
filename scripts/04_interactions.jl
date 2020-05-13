@@ -126,8 +126,12 @@ virionette = compl[compl.host_class.=="Mammalia",:]
 # No Genbank toroviruses
 virionette = virionette[.!((virionette.origin.=="Genbank").&(virionette.virus_genus.=="Torovirus")),:]
 
+# Add a tree name
+virionette.tree = replace.(virionette.host_species, " " => "_")
+
 #--- Write the final flat file
 
 net_path = joinpath("03_interaction_data")
 ispath(net_path) || mkdir(net_path)
+sort!(virionette, [:virus_family, :virus_genus])
 CSV.write(joinpath(net_path, "virionette.csv"), virionette)
