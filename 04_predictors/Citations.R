@@ -1,16 +1,16 @@
 install.packages("easyPubMed")
 library("easyPubMed")
 
-Han <- read.csv('~/Github/cleanbats_betacov/clean data/Han-BatTraits_compatible.csv')
+tree <- readRDS("C:/Users/cjcar/Documents/GitHub/virionette/04_predictors/Full Supertree.rds")
 
 counter <- function(name) {as.numeric(as.character(get_pubmed_ids(name)$Count))}
 
-Han$citations <- 0
+citations <- c()
 
-for(i in 1:nrow(Han)) {
-  Han$citations[i] <- counter(Han$Pan[i])
+for(i in 1:length(tree$tip.label)) {
+  citations[i] <- counter(tree$tip.label[i])
   print(i)
 }
 
-Han <- Han[,c('Pan','citations')]
-write.csv(Han, 'Citations.csv')
+cites <- data.frame(name = tree$tip.label, cites = citations)
+write.csv(cites, 'C:/Users/cjcar/Documents/GitHub/virionette/04_predictors/Citations.csv')
