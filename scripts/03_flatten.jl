@@ -29,16 +29,17 @@ sort!(flat_host_taxo, :genus)
 CSV.write(joinpath(flat_path, "hosts.csv"), flat_host_taxo)
 
 ## Read and merge the entitites (hosts)
-genbank_host_entities = CSV.read(joinpath(scaffold_path, "Anthony", "entities_host.csv"); types=entity_types)
+genbank_host_entities = CSV.read(joinpath(scaffold_path, "Genbank", "entities_host.csv"); types=entity_types)
 hp3_host_entities = CSV.read(joinpath(scaffold_path, "HP3", "entities_host.csv"); types=entity_types)
 
 flat_host_entities = unique(vcat(genbank_host_entities, hp3_host_entities))
-sort!(flat_host_entities, :name)
+sort!(flat_host_entities, :origin)
 
 CSV.write(joinpath(flat_path, "entities_hosts.csv"), flat_host_entities)
 
-## Read and merge the entitites (viruses)
-genbank_virus_entities = CSV.read(joinpath(scaffold_path, "Anthony", "entities_virus.csv"); types=entity_types)
+#--- Read and merge the entitites (viruses)
+
+genbank_virus_entities = CSV.read(joinpath(scaffold_path, "Genbank", "entities_virus.csv"); types=entity_types)
 hp3_virus_entities = CSV.read(joinpath(scaffold_path, "HP3", "entities_virus.csv"); types=entity_types)
 
 flat_virus_entities = unique(vcat(genbank_virus_entities, hp3_virus_entities))
@@ -46,8 +47,9 @@ sort!(flat_virus_entities, :name)
 
 CSV.write(joinpath(flat_path, "entities_virus.csv"), flat_virus_entities)
 
-## Read and merge the associations files
-genbank_associations = CSV.read(joinpath(scaffold_path, "Anthony", "associations.csv"); types=associations_types)
+#--- Read and merge the associations files
+
+genbank_associations = CSV.read(joinpath(scaffold_path, "Genbank", "associations.csv"); types=associations_types)
 hp3_associations = CSV.read(joinpath(scaffold_path, "HP3", "associations.csv"); types=associations_types)
 
 flat_associations = unique(vcat(genbank_associations, hp3_associations))
