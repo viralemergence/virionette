@@ -5,7 +5,9 @@ library(tidyverse)
 tree <- readRDS("C:/Users/cjcar/Documents/GitHub/virionette/04_predictors/Full Supertree.rds")
 tree$tip.label <- gsub("_"," ",tree$tip.label)
 
-counter <- function(name) {as.numeric(as.character(get_pubmed_ids(name)$Count))}
+counter <- function(name) {
+  as.numeric(as.character(get_pubmed_ids(gsub(' ','-',name))$Count))
+}
 
 citations <- c()
 
