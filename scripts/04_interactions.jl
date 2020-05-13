@@ -133,5 +133,5 @@ virionette.tree = replace.(virionette.host_species, " " => "_")
 
 net_path = joinpath("03_interaction_data")
 ispath(net_path) || mkdir(net_path)
-sort!(virionette, [:virus_family, :virus_genus])
+sort!(virionette, [:virus_family, :virus_genus, :host_species])
 CSV.write(joinpath(net_path, "virionette.csv"), virionette)
