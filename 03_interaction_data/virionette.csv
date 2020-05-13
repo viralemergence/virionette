@@ -1651,12 +1651,9 @@ HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus asinus,Thogotovirus
 HP3,Mammalia,Carnivora,Herpestidae,Mungos,Mungos mungo,Thogotovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,Thogotovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Torovirus
-Genbank,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Torovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Torovirus
 HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Torovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Torovirus
-Genbank,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Torovirus
-Genbank,Mammalia,Artiodactyla,Bovidae,Capra,Capra hircus,Torovirus
 HP3,Mammalia,Artiodactyla,Cervidae,Alces,Alces alces,Varicellovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ammotragus,Ammotragus lervia,Varicellovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bison,Bison bonasus,Varicellovirus

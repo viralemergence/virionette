@@ -91,7 +91,11 @@ select!(compl, Not(:virus_subgenus))
 
 #--- Do the last bit of cleaning
 
+# Only mammals
 virionette = compl[compl.host_class.=="Mammalia",:]
+
+# No Genbank toroviruses
+virionette = virionette[.!((virionette.origin.=="Genbank").&(virionette.virus_genus.=="Torovirus")),:]
 
 #--- Write the final flat file
 
