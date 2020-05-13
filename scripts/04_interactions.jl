@@ -50,8 +50,30 @@ for c in [:method, :index, :kingdom, :phylum, :host]
     select!(compl, Not(c))
 end
 compl = compl[(compl.rank.=="Genus").|(compl.rank.=="Subgenus"),:]
+
+vfam = Union{Missing,String}[]
 vgen = Union{Missing,String}[]
 vsubgen = Union{Missing,String}[]
+
+# NOTE this is ugly and really fragile, and should instead use something like
+# `ancestor_of`, and do some light recursion, but...
+function family_of(genus, viruses)
+    v = first(viruses[viruses.name .== genus, :])
+    @assert v.rank == "Genus"
+    a = viruses[viruses.id .== v.ancestor, :]
+    if a.rank == "Family"
+        return a.name
+    end
+    anc = first(a.ancestor)
+    if !ismissing(anc)
+        b = first(viruses[viruses.id .== anc, :])
+        if b.rank == "Family"
+            return b.name
+        end
+    end
+    return missing
+end
+
 for row in eachrow(compl)
     if row.rank == "Genus"
         push!(vgen, row.virus_name)
@@ -60,7 +82,11 @@ for row in eachrow(compl)
         push!(vgen, viruses.name[findfirst(viruses.id .== row.ancestor)])
         push!(vsubgen, row.virus_name)
     end
+    vgen_name = row.rank == "Genus" ? row.virus_name : viruses.name[findfirst(viruses.id .== row.ancestor)]
+    push!(vfam, family_of(vgen_name, viruses))
+
 end
+
 select!(compl, Not(:virus_name))
 select!(compl, Not(:rank))
 select!(compl, Not(:ancestor))
@@ -69,10 +95,11 @@ rename!(compl, :genus => :host_genus)
 rename!(compl, :class => :host_class)
 rename!(compl, :order => :host_order)
 rename!(compl, :species => :host_species)
+compl.virus_family = vfam
 compl.virus_genus = vgen
 compl.virus_subgenus = vsubgen
 
-sort!(compl, :virus_genus)
+sort!(compl, :virus_family)
 
 #--- Correct the taxonomic names
 
@@ -88,6 +115,8 @@ end
 compl = unique(compl)
 select!(compl, Not(:id))
 select!(compl, Not(:virus_subgenus))
+
+compl = unique(compl)
 
 #--- Do the last bit of cleaning
 
