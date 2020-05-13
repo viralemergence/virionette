@@ -74,10 +74,23 @@ compl.virus_subgenus = vsubgen
 
 sort!(compl, :virus_genus)
 
-unique(compl)
+#--- Correct the taxonomic names
 
+corrections = CSV.read(joinpath("00_raw_data", "CORRECTIONS", "mammal_tree_name_matching.csv"))
 
-## Write stuff
+for namechange in eachrow(corrections)
+    old = replace(namechange.old_name, "_" => " ")
+    new = replace(namechange.tree_name, "_" => " ")
+    @info "Replaced $(old) by $(new) $(sum(compl.host_species.==old)) times"
+    compl.host_species[compl.host_species.==old] .= new
+end
+
+compl = unique(compl)
+select!(compl, Not(:id))
+select!(compl, Not(:virus_subgenus))
+
+#--- Write the final flat file
+
 net_path = joinpath("03_interaction_data")
 ispath(net_path) || mkdir(net_path)
-CSV.write(joinpath(net_path, "complete.csv"), unique(compl))
+CSV.write(joinpath(net_path, "virionette.csv"), compl)
