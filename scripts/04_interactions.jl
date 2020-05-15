@@ -123,6 +123,9 @@ compl = unique(compl)
 # Only mammals
 virionette = compl[compl.host_class.=="Mammalia",:]
 
+# No human
+virionette = virionette[virionette.host_species.!="Homo sapiens",:]
+
 # No Genbank toroviruses
 virionette = virionette[.!((virionette.origin.=="Genbank").&(virionette.virus_genus.=="Torovirus")),:]
 

@@ -39,7 +39,6 @@ Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros pomona,Coro
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros pratti,Coronaviridae,Alphacoronavirus
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros ruber,Coronaviridae,Alphacoronavirus
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros vittatus,Coronaviridae,Alphacoronavirus
-Genbank,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Coronaviridae,Alphacoronavirus
 Genbank,Mammalia,Chiroptera,Vespertilionidae,Hypsugo,Hypsugo savii,Coronaviridae,Alphacoronavirus
 Genbank,Mammalia,Carnivora,Felidae,Leopardus,Leopardus pardalis,Coronaviridae,Alphacoronavirus
 Genbank,Mammalia,Chiroptera,Phyllostomidae,Lichonycteris,Lichonycteris obscura,Coronaviridae,Alphacoronavirus
@@ -162,8 +161,6 @@ Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros commersoni,
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros galeritus,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros pratti,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros ruber,Coronaviridae,Betacoronavirus
-Genbank,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Coronaviridae,Betacoronavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Artiodactyla,Cervidae,Hydropotes,Hydropotes inermis,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Chiroptera,Vespertilionidae,Hypsugo,Hypsugo savii,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Chiroptera,Vespertilionidae,Ia,Ia io,Coronaviridae,Betacoronavirus
@@ -248,10 +245,8 @@ Genbank,Mammalia,Chiroptera,Vespertilionidae,Vespertilio,Vespertilio sinensis,Co
 Genbank,Mammalia,Artiodactyla,Camelidae,Vicugna,Vicugna vicugna,Coronaviridae,Betacoronavirus
 Genbank,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Coronaviridae,Deltacoronavirus
 Genbank,Mammalia,Cetacea,Monodontidae,Delphinapterus,Delphinapterus leucas,Coronaviridae,Gammacoronavirus
-Genbank,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Coronaviridae,Gammacoronavirus
 Genbank,Mammalia,Artiodactyla,Camelidae,Vicugna,Vicugna vicugna,Coronaviridae,Gammacoronavirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus aethiops,Herpesviridae,Cytomegalovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Cytomegalovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Herpesviridae,Cytomegalovirus
 HP3,Mammalia,Primates,Hominidae,Pan,Pan troglodytes,Herpesviridae,Cytomegalovirus
 HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio ursinus,Herpesviridae,Cytomegalovirus
@@ -260,7 +255,6 @@ HP3,Mammalia,Carnivora,Canidae,Canis,Canis lupus,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus sabaeus,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,Herpesviridae,Lymphocryptovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio cynocephalus,Herpesviridae,Lymphocryptovirus
 HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio hamadryas,Herpesviridae,Lymphocryptovirus
@@ -297,7 +291,6 @@ HP3,Mammalia,Artiodactyla,Cervidae,Dama,Dama dama,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus asinus,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Hippotragus,Hippotragus equinus,Herpesviridae,Rhadinovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Rodentia,Sciuridae,Marmota,Marmota monax,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Carnivora,Mustelidae,Martes,Martes pennanti,Herpesviridae,Rhadinovirus
@@ -316,7 +309,6 @@ HP3,Mammalia,Rodentia,Muridae,Rattus,Rattus tiomanicus,Herpesviridae,Rhadinoviru
 HP3,Mammalia,Artiodactyla,Cervidae,Rusa,Rusa timorensis,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Primates,Cebidae,Saimiri,Saimiri sciureus,Herpesviridae,Rhadinovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Herpesviridae,Rhadinovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Roseolovirus
 HP3,Mammalia,Primates,Atelidae,Ateles,Ateles geoffroyi,Herpesviridae,Simplexvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Herpesviridae,Simplexvirus
 HP3,Mammalia,Primates,Callitrichidae,Callithrix,Callithrix jacchus,Herpesviridae,Simplexvirus
@@ -328,7 +320,6 @@ HP3,Mammalia,Diprotodontia,Macropodidae,Dorcopsis,Dorcopsis muelleri,Herpesvirid
 HP3,Mammalia,Proboscidea,Elephantidae,Elephas,Elephas maximus,Herpesviridae,Simplexvirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla beringei,Herpesviridae,Simplexvirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,Herpesviridae,Simplexvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Simplexvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Kobus,Kobus ellipsiprymnus,Herpesviridae,Simplexvirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca arctoides,Herpesviridae,Simplexvirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca cyclopis,Herpesviridae,Simplexvirus
@@ -378,7 +369,6 @@ HP3,Mammalia,Artiodactyla,Bovidae,Eudorcas,Eudorcas thomsonii,Herpesviridae,Vari
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis silvestris,Herpesviridae,Varicellovirus
 HP3,Mammalia,Artiodactyla,Giraffidae,Giraffa,Giraffa camelopardalis,Herpesviridae,Varicellovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Phocidae,Leptonychotes,Leptonychotes weddellii,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Phocidae,Lobodon,Lobodon carcinophaga,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Mustelidae,Lontra,Lontra canadensis,Herpesviridae,Varicellovirus
@@ -396,10 +386,8 @@ HP3,Mammalia,Artiodactyla,Cervidae,Rangifer,Rangifer tarandus,Herpesviridae,Vari
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Ursidae,Ursus,Ursus americanus,Herpesviridae,Varicellovirus
 HP3,Mammalia,Carnivora,Ursidae,Ursus,Ursus maritimus,Herpesviridae,Varicellovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Papillomaviridae,Alphapapillomavirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis,Papillomaviridae,Alphapapillomavirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Papillomaviridae,Alphapapillomavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Papillomaviridae,Betapapillomavirus
 HP3,Mammalia,Artiodactyla,Cervidae,Alces,Alces alces,Papillomaviridae,Deltapapillomavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos grunniens,Papillomaviridae,Deltapapillomavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Papillomaviridae,Deltapapillomavirus
@@ -409,14 +397,11 @@ HP3,Mammalia,Artiodactyla,Cervidae,Odocoileus,Odocoileus hemionus,Papillomavirid
 HP3,Mammalia,Artiodactyla,Cervidae,Odocoileus,Odocoileus virginianus,Papillomaviridae,Deltapapillomavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,Papillomaviridae,Deltapapillomavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Papillomaviridae,Epsilonpapillomavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Papillomaviridae,Gammapapillomavirus
 HP3,Mammalia,Rodentia,Muridae,Mastomys,Mastomys natalensis,Papillomaviridae,Iotapapillomavirus
 HP3,Mammalia,Lagomorpha,Leporidae,Oryctolagus,Oryctolagus cuniculus,Papillomaviridae,Kappapapillomavirus
 HP3,Mammalia,Lagomorpha,Leporidae,Sylvilagus,Sylvilagus floridanus,Papillomaviridae,Kappapapillomavirus
 HP3,Mammalia,Carnivora,Canidae,Canis,Canis lupus,Papillomaviridae,Lambdapapillomavirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,Papillomaviridae,Lambdapapillomavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Papillomaviridae,Mupapillomavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Papillomaviridae,Nupapillomavirus
 HP3,Mammalia,Cetacea,Phocoenidae,Phocoena,Phocoena spinipinnis,Papillomaviridae,Omikronpapillomavirus
 HP3,Mammalia,Rodentia,Cricetidae,Mesocricetus,Mesocricetus auratus,Papillomaviridae,Pipapillomavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Papillomaviridae,Xipapillomavirus
@@ -432,7 +417,6 @@ HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Paramyxoviridae,Henipav
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros armiger,Paramyxoviridae,Henipavirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros larvatus,Paramyxoviridae,Henipavirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros pomona,Paramyxoviridae,Henipavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Paramyxoviridae,Henipavirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Hypsignathus,Hypsignathus monstrosus,Paramyxoviridae,Henipavirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,Paramyxoviridae,Henipavirus
 HP3,Mammalia,Chiroptera,Vespertilionidae,Myotis,Myotis daubentonii,Paramyxoviridae,Henipavirus
@@ -478,7 +462,6 @@ HP3,Mammalia,Artiodactyla,Bovidae,Gazella,Gazella dorcas,Paramyxoviridae,Morbill
 HP3,Mammalia,Artiodactyla,Giraffidae,Giraffa,Giraffa camelopardalis,Paramyxoviridae,Morbillivirus
 HP3,Mammalia,Cetacea,Delphinidae,Globicephala,Globicephala melas,Paramyxoviridae,Morbillivirus
 HP3,Mammalia,Carnivora,Phocidae,Halichoerus,Halichoerus grypus,Paramyxoviridae,Morbillivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Paramyxoviridae,Morbillivirus
 HP3,Mammalia,Carnivora,Felidae,Leopardus,Leopardus pardalis,Paramyxoviridae,Morbillivirus
 HP3,Mammalia,Carnivora,Phocidae,Lobodon,Lobodon carcinophaga,Paramyxoviridae,Morbillivirus
 HP3,Mammalia,Carnivora,Mustelidae,Lontra,Lontra canadensis,Paramyxoviridae,Morbillivirus
@@ -520,7 +503,6 @@ HP3,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus ascanius,Param
 HP3,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus mitis,Paramyxoviridae,Respirovirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus pygerythrus,Paramyxoviridae,Respirovirus
 HP3,Mammalia,Rodentia,Cricetidae,Cricetus,Cricetus cricetus,Paramyxoviridae,Respirovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Paramyxoviridae,Respirovirus
 HP3,Mammalia,Rodentia,Cricetidae,Mesocricetus,Mesocricetus auratus,Paramyxoviridae,Respirovirus
 HP3,Mammalia,Rodentia,Cricetidae,Microtus,Microtus agrestis,Paramyxoviridae,Respirovirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,Paramyxoviridae,Respirovirus
@@ -552,7 +534,6 @@ HP3,Mammalia,Rodentia,Sciuridae,Sciurus,Sciurus carolinensis,Poxviridae,Leporipo
 HP3,Mammalia,Lagomorpha,Leporidae,Sylvilagus,Sylvilagus bachmani,Poxviridae,Leporipoxvirus
 HP3,Mammalia,Lagomorpha,Leporidae,Sylvilagus,Sylvilagus brasiliensis,Poxviridae,Leporipoxvirus
 HP3,Mammalia,Rodentia,Sciuridae,Tamiasciurus,Tamiasciurus hudsonicus,Poxviridae,Leporipoxvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Poxviridae,Molluscipoxvirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus flavicollis,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus sylvaticus,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Cricetidae,Arvicola,Arvicola scherman,Poxviridae,Orthopoxvirus
@@ -571,7 +552,6 @@ HP3,Mammalia,Rodentia,Sciuridae,Funisciurus,Funisciurus anerythrus,Poxviridae,Or
 HP3,Mammalia,Rodentia,Sciuridae,Funisciurus,Funisciurus congicus,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Muridae,Gerbilliscus,Gerbilliscus kempi,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Sciuridae,Heliosciurus,Heliosciurus rufobrachium,Poxviridae,Orthopoxvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Carnivora,Felidae,Lynx,Lynx lynx,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Muridae,Meriones,Meriones libycus,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Rodentia,Cricetidae,Microtus,Microtus agrestis,Poxviridae,Orthopoxvirus
@@ -593,7 +573,6 @@ HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Poxviridae,Orthopoxvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Poxviridae,Parapoxvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Capra,Capra hircus,Poxviridae,Parapoxvirus
 HP3,Mammalia,Artiodactyla,Cervidae,Cervus,Cervus elaphus,Poxviridae,Parapoxvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Poxviridae,Parapoxvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovibos,Ovibos moschatus,Poxviridae,Parapoxvirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,Poxviridae,Parapoxvirus
 HP3,Mammalia,Carnivora,Phocidae,Phoca,Phoca vitulina,Poxviridae,Parapoxvirus
@@ -604,7 +583,6 @@ HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Poxviridae,Suipoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus aethiops,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus pygerythrus,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Erythrocebus,Erythrocebus patas,Poxviridae,Yatapoxvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca radiata,Poxviridae,Yatapoxvirus
@@ -612,7 +590,6 @@ HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio anubis,Poxviridae,Yatapoxvirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus sylvaticus,Reoviridae,Coltivirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Reoviridae,Coltivirus
 HP3,Mammalia,Rodentia,Erethizontidae,Erethizon,Erethizon dorsatum,Reoviridae,Coltivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Reoviridae,Coltivirus
 HP3,Mammalia,Rodentia,Sciuridae,Marmota,Marmota flaviventris,Reoviridae,Coltivirus
 HP3,Mammalia,Rodentia,Cricetidae,Microtus,Microtus californicus,Reoviridae,Coltivirus
 HP3,Mammalia,Rodentia,Cricetidae,Myodes,Myodes gapperi,Reoviridae,Coltivirus
@@ -680,7 +657,6 @@ HP3,Mammalia,Artiodactyla,Bovidae,Gazella,Gazella subgutturosa,Reoviridae,Orbivi
 HP3,Mammalia,Carnivora,Viverridae,Genetta,Genetta maculata,Reoviridae,Orbivirus
 HP3,Mammalia,Artiodactyla,Giraffidae,Giraffa,Giraffa camelopardalis,Reoviridae,Orbivirus
 HP3,Mammalia,Artiodactyla,Bovidae,Hippotragus,Hippotragus niger,Reoviridae,Orbivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Reoviridae,Orbivirus
 HP3,Mammalia,Artiodactyla,Bovidae,Kobus,Kobus ellipsiprymnus,Reoviridae,Orbivirus
 HP3,Mammalia,Proboscidea,Elephantidae,Loxodonta,Loxodonta africana,Reoviridae,Orbivirus
 HP3,Mammalia,Carnivora,Canidae,Lycaon,Lycaon pictus,Reoviridae,Orbivirus
@@ -726,14 +702,12 @@ HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio cynocephalus,Reoviridae,Orthor
 HP3,Mammalia,Chiroptera,Pteropodidae,Pteropus,Pteropus poliocephalus,Reoviridae,Orthoreovirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Rousettus,Rousettus leschenaultii,Reoviridae,Orthoreovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Reoviridae,Rotavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Reoviridae,Rotavirus
 HP3,Mammalia,Carnivora,Canidae,Nyctereutes,Nyctereutes procyonoides,Reoviridae,Rotavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,Reoviridae,Rotavirus
 HP3,Mammalia,Carnivora,Viverridae,Paguma,Paguma larvata,Reoviridae,Rotavirus
 HP3,Mammalia,Primates,Hominidae,Pongo,Pongo pygmaeus,Reoviridae,Rotavirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Reoviridae,Rotavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Reoviridae,Seadornavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Reoviridae,Seadornavirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Reoviridae,Seadornavirus
 HP3,Mammalia,Rodentia,Cricetidae,Calomys,Calomys callosus,Retroviridae,Betaretrovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Capra,Capra hircus,Retroviridae,Betaretrovirus
@@ -748,7 +722,6 @@ HP3,Mammalia,Artiodactyla,Bovidae,Bubalus,Bubalus bubalis,Retroviridae,Deltaretr
 HP3,Mammalia,Primates,Cercopithecidae,Cercocebus,Cercocebus agilis,Retroviridae,Deltaretrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus mona,Retroviridae,Deltaretrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus nictitans,Retroviridae,Deltaretrovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Retroviridae,Deltaretrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Lophocebus,Lophocebus albigena,Retroviridae,Deltaretrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca maura,Retroviridae,Deltaretrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca nigra,Retroviridae,Deltaretrovirus
@@ -762,7 +735,6 @@ HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio ursinus,Retroviridae,Deltaretr
 HP3,Mammalia,Rodentia,Caviidae,Cavia,Cavia porcellus,Retroviridae,Gammaretrovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,Retroviridae,Gammaretrovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis silvestris,Retroviridae,Gammaretrovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Retroviridae,Gammaretrovirus
 HP3,Mammalia,Primates,Hylobatidae,Hylobates,Hylobates lar,Retroviridae,Gammaretrovirus
 HP3,Mammalia,Primates,Atelidae,Lagothrix,Lagothrix lagotricha,Retroviridae,Gammaretrovirus
 HP3,Mammalia,Carnivora,Felidae,Lynx,Lynx pardinus,Retroviridae,Gammaretrovirus
@@ -785,7 +757,6 @@ HP3,Mammalia,Primates,Cercopithecidae,Colobus,Colobus guereza,Retroviridae,Lenti
 HP3,Mammalia,Carnivora,Hyaenidae,Crocuta,Crocuta crocuta,Retroviridae,Lentivirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Retroviridae,Lentivirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,Retroviridae,Lentivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Retroviridae,Lentivirus
 HP3,Mammalia,Primates,Cercopithecidae,Lophocebus,Lophocebus albigena,Retroviridae,Lentivirus
 HP3,Mammalia,Carnivora,Felidae,Lynx,Lynx rufus,Retroviridae,Lentivirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,Retroviridae,Lentivirus
@@ -800,7 +771,6 @@ HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio ursinus,Retroviridae,Lentiviru
 HP3,Mammalia,Carnivora,Felidae,Puma,Puma concolor,Retroviridae,Lentivirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,Tobaniviridae,Torovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,Tobaniviridae,Torovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,Tobaniviridae,Torovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,Tobaniviridae,Torovirus
 HP3,Mammalia,Rodentia,Cricetidae,Akodon,Akodon azarae,,Alphavirus
 HP3,Mammalia,Primates,Atelidae,Alouatta,Alouatta caraya,,Alphavirus
@@ -844,7 +814,6 @@ HP3,Mammalia,Chiroptera,Phyllostomidae,Glossophaga,Glossophaga commissarisi,,Alp
 HP3,Mammalia,Chiroptera,Phyllostomidae,Glossophaga,Glossophaga soricina,,Alphavirus
 HP3,Mammalia,Rodentia,Heteromyidae,Heteromys,Heteromys anomalus,,Alphavirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros caffer,,Alphavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Alphavirus
 HP3,Mammalia,Rodentia,Echimyidae,Hoplomys,Hoplomys gymnurus,,Alphavirus
 HP3,Mammalia,Rodentia,Muridae,Hydromys,Hydromys chrysogaster,,Alphavirus
 HP3,Mammalia,Chiroptera,Vespertilionidae,Lasiurus,Lasiurus cinereus,,Alphavirus
@@ -946,7 +915,6 @@ HP3,Mammalia,Artiodactyla,Bovidae,Gazella,Gazella gazella,,Aphthovirus
 HP3,Mammalia,Artiodactyla,Giraffidae,Giraffa,Giraffa camelopardalis,,Aphthovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Hippotragus,Hippotragus equinus,,Aphthovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Hippotragus,Hippotragus niger,,Aphthovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Aphthovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Kobus,Kobus ellipsiprymnus,,Aphthovirus
 HP3,Mammalia,Artiodactyla,Camelidae,Lama,Lama glama,,Aphthovirus
 HP3,Mammalia,Proboscidea,Elephantidae,Loxodonta,Loxodonta africana,,Aphthovirus
@@ -990,7 +958,6 @@ HP3,Mammalia,Primates,Lemuridae,Eulemur,Eulemur albifrons,,Cardiovirus
 HP3,Mammalia,Primates,Lemuridae,Eulemur,Eulemur macaco,,Cardiovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,,Cardiovirus
 HP3,Mammalia,Rodentia,Gliridae,Glis,Glis glis,,Cardiovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Cardiovirus
 HP3,Mammalia,Rodentia,Muridae,Hydromys,Hydromys chrysogaster,,Cardiovirus
 HP3,Mammalia,Carnivora,Herpestidae,Ichneumia,Ichneumia albicauda,,Cardiovirus
 HP3,Mammalia,Primates,Lemuridae,Lemur,Lemur catta,,Cardiovirus
@@ -1017,12 +984,10 @@ HP3,Mammalia,Rodentia,Cricetidae,Sigmodon,Sigmodon hispidus,,Cardiovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Cardiovirus
 HP3,Mammalia,Primates,Lemuridae,Varecia,Varecia variegata,,Cardiovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Circovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Deltavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Cephalophus,Cephalophus callipygus,,Ebolavirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Eidolon,Eidolon helvum,,Ebolavirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Epomops,Epomops franqueti,,Ebolavirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,,Ebolavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Ebolavirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Hypsignathus,Hypsignathus monstrosus,,Ebolavirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis,,Ebolavirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Micropteropus,Micropteropus pusillus,,Ebolavirus
@@ -1034,7 +999,6 @@ HP3,Mammalia,Chiroptera,Pteropodidae,Rousettus,Rousettus amplexicaudatus,,Ebolav
 HP3,Mammalia,Chiroptera,Pteropodidae,Rousettus,Rousettus leschenaultii,,Ebolavirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Ebolavirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,,Enterovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Enterovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis,,Enterovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,,Enterovirus
 HP3,Mammalia,Primates,Cercopithecidae,Mandrillus,Mandrillus leucophaeus,,Enterovirus
@@ -1116,7 +1080,6 @@ HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros cineraceus,,Fla
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros lankadiva,,Flavivirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros pomona,,Flavivirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros speoris,,Flavivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Flavivirus
 HP3,Mammalia,Rodentia,Muridae,Lemniscomys,Lemniscomys striatus,,Flavivirus
 HP3,Mammalia,Primates,Lemuridae,Lemur,Lemur catta,,Flavivirus
 HP3,Mammalia,Lagomorpha,Leporidae,Lepus,Lepus americanus,,Flavivirus
@@ -1226,10 +1189,8 @@ HP3,Mammalia,Chiroptera,Vespertilionidae,Vespadelus,Vespadelus pumilus,,Flavivir
 HP3,Mammalia,Chiroptera,Vespertilionidae,Vespertilio,Vespertilio sinensis,,Flavivirus
 HP3,Mammalia,Carnivora,Canidae,Vulpes,Vulpes vulpes,,Flavivirus
 HP3,Mammalia,Primates,Aotidae,Aotus,Aotus trivirgatus,,Hepacivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Hepacivirus
 HP3,Mammalia,Primates,Callitrichidae,Saguinus,Saguinus labiatus,,Hepacivirus
 HP3,Mammalia,Primates,Aotidae,Aotus,Aotus trivirgatus,,Hepatovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Hepatovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis,,Hepatovirus
 HP3,Mammalia,Primates,Hominidae,Pan,Pan troglodytes,,Hepatovirus
 HP3,Mammalia,Primates,Cercopithecidae,Papio,Papio ursinus,,Hepatovirus
@@ -1239,7 +1200,6 @@ HP3,Mammalia,Rodentia,Cricetidae,Mesocricetus,Mesocricetus auratus,,Ictaluriviru
 HP3,Mammalia,Rodentia,Cricetidae,Microtus,Microtus pennsylvanicus,,Ictalurivirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,,Ictalurivirus
 HP3,Mammalia,Rodentia,Sciuridae,Spermophilus,Spermophilus citellus,,Ictalurivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Kobuvirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus sylvaticus,,Lagovirus
 HP3,Mammalia,Lagomorpha,Leporidae,Lepus,Lepus europaeus,,Lagovirus
 HP3,Mammalia,Lagomorpha,Leporidae,Lepus,Lepus timidus,,Lagovirus
@@ -1305,7 +1265,6 @@ HP3,Mammalia,Chiroptera,Phyllostomidae,Glossophaga,Glossophaga morenoi,,Lyssavir
 HP3,Mammalia,Chiroptera,Phyllostomidae,Glossophaga,Glossophaga soricina,,Lyssavirus
 HP3,Mammalia,Chiroptera,Vespertilionidae,Histiotus,Histiotus montanus,,Lyssavirus
 HP3,Mammalia,Chiroptera,Vespertilionidae,Histiotus,Histiotus velatus,,Lyssavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Lyssavirus
 HP3,Mammalia,Rodentia,Caviidae,Hydrochoerus,Hydrochoerus hydrochaeris,,Lyssavirus
 HP3,Mammalia,Carnivora,Herpestidae,Ichneumia,Ichneumia albicauda,,Lyssavirus
 HP3,Mammalia,Chiroptera,Vespertilionidae,Lasionycteris,Lasionycteris noctivagans,,Lyssavirus
@@ -1424,13 +1383,11 @@ HP3,Mammalia,Carnivora,Canidae,Vulpes,Vulpes vulpes,,Lyssavirus
 HP3,Mammalia,Carnivora,Felidae,Acinonyx,Acinonyx jubatus,,Mamastrovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,,Mamastrovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,,Mamastrovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Mamastrovirus
 HP3,Mammalia,Carnivora,Mustelidae,Neovison,Neovison vison,,Mamastrovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,,Mamastrovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Mamastrovirus
 HP3,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus aethiops,,Marburgvirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Epomops,Epomops franqueti,,Marburgvirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Marburgvirus
 HP3,Mammalia,Chiroptera,Pteropodidae,Hypsignathus,Hypsignathus monstrosus,,Marburgvirus
 HP3,Mammalia,Chiroptera,Miniopteridae,Miniopterus,Miniopterus inflatus,,Marburgvirus
 HP3,Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,Rhinolophus eloquens,,Marburgvirus
@@ -1445,7 +1402,6 @@ HP3,Mammalia,Artiodactyla,Cervidae,Dama,Dama dama,,Mastadenovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,,Mastadenovirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla beringei,,Mastadenovirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,,Mastadenovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Mastadenovirus
 HP3,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta,,Mastadenovirus
 HP3,Mammalia,Carnivora,Mustelidae,Martes,Martes pennanti,,Mastadenovirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,,Mastadenovirus
@@ -1463,20 +1419,17 @@ HP3,Mammalia,Carnivora,Ursidae,Ursus,Ursus maritimus,,Mastadenovirus
 HP3,Mammalia,Carnivora,Canidae,Vulpes,Vulpes velox,,Mastadenovirus
 HP3,Mammalia,Carnivora,Canidae,Vulpes,Vulpes vulpes,,Mastadenovirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla beringei,,Metapneumovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Metapneumovirus
 HP3,Mammalia,Primates,Hominidae,Pan,Pan troglodytes,,Metapneumovirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus sylvaticus,,Norovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,,Norovirus
 HP3,Mammalia,Carnivora,Canidae,Canis,Canis lupus,,Norovirus
 HP3,Mammalia,Carnivora,Felidae,Felis,Felis catus,,Norovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Norovirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,,Norovirus
 HP3,Mammalia,Carnivora,Felidae,Panthera,Panthera leo,,Norovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Norovirus
 HP3,Mammalia,Erinaceomorpha,Erinaceidae,Atelerix,Atelerix albiventris,,Nucleorhabdovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,,Nucleorhabdovirus
 HP3,Mammalia,Rodentia,Nesomyidae,Cricetomys,Cricetomys gambianus,,Nucleorhabdovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Nucleorhabdovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Aepyceros,Aepyceros melampus,,Orthobunyavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Alcelaphus,Alcelaphus buselaphus,,Orthobunyavirus
 HP3,Mammalia,Chiroptera,Phyllostomidae,Anoura,Anoura geoffroyi,,Orthobunyavirus
@@ -1510,7 +1463,6 @@ HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,,Orthobunyavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Eudorcas,Eudorcas thomsonii,,Orthobunyavirus
 HP3,Mammalia,Rodentia,Muridae,Gerbilliscus,Gerbilliscus validus,,Orthobunyavirus
 HP3,Mammalia,Rodentia,Heteromyidae,Heteromys,Heteromys anomalus,,Orthobunyavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Orthobunyavirus
 HP3,Mammalia,Peramelemorphia,Peramelidae,Isoodon,Isoodon macrourus,,Orthobunyavirus
 HP3,Mammalia,Artiodactyla,Bovidae,Kobus,Kobus ellipsiprymnus,,Orthobunyavirus
 HP3,Mammalia,Rodentia,Muridae,Lemniscomys,Lemniscomys striatus,,Orthobunyavirus
@@ -1582,7 +1534,6 @@ HP3,Mammalia,Rodentia,Cricetidae,Zygodontomys,Zygodontomys brevicauda,,Orthobuny
 HP3,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus ascanius,,Orthohepadnavirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla beringei,,Orthohepadnavirus
 HP3,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla,,Orthohepadnavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Orthohepadnavirus
 HP3,Mammalia,Primates,Hylobatidae,Hylobates,Hylobates lar,,Orthohepadnavirus
 HP3,Mammalia,Primates,Hylobatidae,Hylobates,Hylobates moloch,,Orthohepadnavirus
 HP3,Mammalia,Primates,Hylobatidae,Hylobates,Hylobates pileatus,,Orthohepadnavirus
@@ -1597,7 +1548,6 @@ HP3,Mammalia,Rodentia,Sciuridae,Urocitellus,Spermophilus richardsonii,,Orthohepa
 HP3,Mammalia,Chiroptera,Phyllostomidae,Uroderma,Uroderma bilobatum,,Orthohepadnavirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus flavicollis,,Parechovirus
 HP3,Mammalia,Rodentia,Muridae,Apodemus,Apodemus sylvaticus,,Parechovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Parechovirus
 HP3,Mammalia,Rodentia,Cricetidae,Lemmus,Lemmus lemmus,,Parechovirus
 HP3,Mammalia,Rodentia,Cricetidae,Microtus,Microtus agrestis,,Parechovirus
 HP3,Mammalia,Rodentia,Muridae,Mus,Mus musculus,,Parechovirus
@@ -1663,7 +1613,6 @@ HP3,Mammalia,Chiroptera,Vespertilionidae,Glauconycteris,Glauconycteris argentata
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros abae,,Phlebovirus
 HP3,Mammalia,Chiroptera,Hipposideridae,Hipposideros,Hipposideros caffer,,Phlebovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Hippotragus,Hippotragus niger,,Phlebovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Phlebovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Kobus,Kobus ellipsiprymnus,,Phlebovirus
 HP3,Mammalia,Rodentia,Muridae,Mastomys,Mastomys erythroleucus,,Phlebovirus
 HP3,Mammalia,Rodentia,Muridae,Mastomys,Mastomys huberti,,Phlebovirus
@@ -1686,7 +1635,6 @@ HP3,Mammalia,Carnivora,Canidae,Canis,Canis lupus,,Picobirnavirus
 HP3,Mammalia,Cingulata,Dasypodidae,Chaetophractus,Chaetophractus vellerosus,,Picobirnavirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus asinus,,Picobirnavirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,,Picobirnavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Picobirnavirus
 HP3,Mammalia,Carnivora,Felidae,Leopardus,Leopardus geoffroyi,,Picobirnavirus
 HP3,Mammalia,Pilosa,Myrmecophagidae,Myrmecophaga,Myrmecophaga tridactyla,,Picobirnavirus
 HP3,Mammalia,Rodentia,Cricetidae,Oligoryzomys,Oligoryzomys nigripes,,Picobirnavirus
@@ -1695,15 +1643,12 @@ HP3,Mammalia,Primates,Hominidae,Pongo,Pongo pygmaeus,,Picobirnavirus
 HP3,Mammalia,Carnivora,Felidae,Puma,Puma concolor,,Picobirnavirus
 HP3,Mammalia,Rodentia,Muridae,Rattus,Rattus norvegicus,,Picobirnavirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Picobirnavirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Rubivirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Sapovirus
 HP3,Mammalia,Carnivora,Mustelidae,Neovison,Neovison vison,,Sapovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Sapovirus
 HP3,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa,,Teschovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Bos,Bos taurus,,Thogotovirus
 HP3,Mammalia,Artiodactyla,Camelidae,Camelus,Camelus dromedarius,,Thogotovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus asinus,,Thogotovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Thogotovirus
 HP3,Mammalia,Rodentia,Muridae,Meriones,Meriones hurrianae,,Thogotovirus
 HP3,Mammalia,Carnivora,Herpestidae,Mungos,Mungos mungo,,Thogotovirus
 HP3,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries,,Thogotovirus
@@ -1741,7 +1686,6 @@ HP3,Mammalia,Rodentia,Heteromyidae,Dipodomys,Dipodomys merriami,,Vesiculovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus asinus,,Vesiculovirus
 HP3,Mammalia,Perissodactyla,Equidae,Equus,Equus caballus,,Vesiculovirus
 HP3,Mammalia,Chiroptera,Phyllostomidae,Glossophaga,Glossophaga soricina,,Vesiculovirus
-HP3,Mammalia,Primates,Hominidae,Homo,Homo sapiens,,Vesiculovirus
 HP3,Mammalia,Artiodactyla,Camelidae,Lama,Lama glama,,Vesiculovirus
 HP3,Mammalia,Lagomorpha,Leporidae,Lepus,Lepus californicus,,Vesiculovirus
 HP3,Mammalia,Rodentia,Heteromyidae,Liomys,Liomys adspersus,,Vesiculovirus
